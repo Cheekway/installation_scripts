@@ -17,7 +17,11 @@ configurations
 - vi into above fileand remove one dot from the sonatype config
 - add usrname to nexus config vi /opt/nexus/bin/nexus.rc
 
+Start Nexus
+sudo -u nexus /opt/nexus/bin/nexus start
 
+verify
+tail -f /opt/nexus/sonatype-work/nexus3/log/nexus.log
 ```
 https://www.howtoforge.com/how-to-install-and-configure-nexus-repository-manager-on-ubuntu-20-04/
 ```
