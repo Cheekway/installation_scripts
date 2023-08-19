@@ -13,7 +13,9 @@ tar xzf nexus-3.29.2-02-unix.tar.gz -C /opt/nexus --strip-components=1
 chown -R nexus:nexus /opt/nexus
 
 nano /opt/nexus/bin/nexus.vmoptions
-
+configurations
+- vi into above fileand remove one dot from the sonatype config
+- add usrname to nexus config vi /opt/nexus/bin/nexus.rc
 
 
 ```
